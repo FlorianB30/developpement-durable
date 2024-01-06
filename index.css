@@ -1,0 +1,25 @@
+.head {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.head ul {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    list-style: none;
+}
+.questions {
+    margin-top: 100px;
+}
+a {
+    text-decoration: none;
+}
+* {
+    background-color: black;
+    color: white;
+}
